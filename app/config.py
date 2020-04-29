@@ -2,7 +2,7 @@ class Config:
     '''
     General configuration parent class
     '''
-    pass
+     NEWS_API_WEB_URL='https://newsapi.org/v2/{}?&api_Key={}'
 
 
 
@@ -23,5 +23,5 @@ class DevConfig(Config):
     Args:
         Config: The parent configuration class with General configuration settings
     '''
-
+    pass
     DEBUG = True
